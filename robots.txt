@@ -1,0 +1,25 @@
+# TechInstitute Website - Robots.txt
+# Allow search engines to crawl the entire website
+
+User-agent: *
+Allow: /
+Allow: /*.html
+Allow: /css/
+Allow: /js/
+Allow: /images/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.pdf$
+
+# Sitemap location
+Sitemap: https://techinstitute.com/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 1
+
+# Respect robots.txt
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
