@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our photo gallery showcasing TechInstitute's modern facilities, training programs, student events, and success stories.">
+    <meta name="keywords" content="gallery, tech institute, computer training, classroom, labs, events, students">
+    <meta name="author" content="TechInstitute">
+    <meta property="og:title" content="Gallery - TechInstitute">
+    <meta property="og:description" content="View photos of our institute facilities and student activities">
+    <meta property="og:type" content="website">
+    <meta name="robots" content="index, follow">
+    <title>Gallery - TechInstitute | View Our Facilities & Events</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="fas fa-code"></i> TechInstitute
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="courses.html">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Our Gallery</h1>
+        <p>Experience the TechInstitute environment through our photos</p>
+    </section>
+
+    <!-- Gallery Filters -->
+    <section class="gallery-filters py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="classrooms">Classrooms</button>
+                        <button class="filter-btn" data-filter="labs">Labs</button>
+                        <button class="filter-btn" data-filter="events">Events</button>
+                        <button class="filter-btn" data-filter="achievements">Achievements</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="gallery-section py-5">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Classroom Images -->
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="classrooms">
+                    <div class="gallery-card">
+                        <div class="gallery-image">
+                            <a href="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop" 
+                               data-lightbox="gallery" 
+                               data-title="Modern Classroom">
+                                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop" 
+                                     alt="Modern Classroom" class="img-fluid">
+                                <div class="gallery-overlay">
+                                    <i class="fas fa-search-plus"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="gallery-info">
+                            <h5>Modern Classroom</h5>
+                            <p>State-of-the-art teaching facility</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lab Images -->
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="labs">
+                    <div class="gallery-card">
+                        <div class="gallery-image">
+                            <a href="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=600&fit=crop" 
+                               data-lightbox="gallery" 
+                               data-title="Computer Lab">
+                                <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=300&fit=crop" 
+                                     alt="Computer Lab" class="img-fluid">
+                                <div class="gallery-overlay">
+                                    <i class="fas fa-search-plus"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="gallery-info">
+                            <h5>Computer Lab</h5>
+                            <p>Advanced computer workstations</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Events Images -->
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="events">
+                    <div class="gallery-card">
+                        <div class="gallery-image">
+                            <a href="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop" 
+                               data-lightbox="gallery" 
+                               data-title="Tech Seminar">
+                                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop" 
+                                     alt="Tech Seminar" class="img-fluid">
+                                <div class="gallery-overlay">
+                                    <i class="fas fa-search-plus"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="gallery-info">
+                            <h5>Tech Seminar</h5>
+                            <p>Industry expert talks</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Achievement Images -->
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="achievements">
+                    <div class="gallery-card">
+                        <div class="gallery-image">
+                            <a href="https://images.unsplash.com/photo-1491841573634-28fb1df041d8?w=800&h=600&fit=crop" 
+                               data-lightbox="gallery" 
+                               data-title="Graduation Ceremony">
+                                <img src="https://images.unsplash.com/photo-1491841573634-28fb1df041d8?w=400&h=300&fit=crop" 
+                                     alt="Graduation Ceremony" class="img-fluid">
+                                <div class="gallery-overlay">
+                                    <i class="fas fa-search-plus"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="gallery-info">
+                            <h5>Graduation Ceremony</h5>
+                            <p>Celebrating student success</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Library Images -->
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="classrooms">
+                    <div class="gallery-card">
+                        <div class="gallery-image">
+                            <a href="https://images.unsplash.com/photo-150784272343-583f20270319?w=800&h=600&fit=crop" 
+                               data-lightbox="gallery" 
+                               data-title="Library">
+                                <img src="https://images.unsplash.com/photo-1507842872343-583f20270319?w=400&h=300&fit=crop" 
+                                     alt="Library" class="img-fluid">
+                                <div class="gallery-overlay">
+                                    <i class="fas fa-search-plus"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="gallery-info">
+                            <h5>Library</h5>
+                            <p>Resource center with learning materials</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cafeteria Images -->
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="events">
+                    <div class="gallery-card">
+                        <div class="gallery-image">
+                            <a href="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop" 
+                               data-lightbox="gallery" 
+                               data-title="Cafeteria">
+                                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop" 
+                                     alt="Cafeteria" class="img-fluid">
+                                <div class="gallery-overlay">
+                                    <i class="fas fa-search-plus"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="gallery-info">
+                            <h5>Cafeteria</h5>
+                            <p>Comfortable common area</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Workshop Images -->
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="labs">
+                    <div class="gallery-card">
+                        <div class="gallery-image">
+                            <a href="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop" 
+                               data-lightbox="gallery" 
+                               data-title="Workshops">
+                                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop" 
+                                     alt="Workshops" class="img-fluid">
+                                <div class="gallery-overlay">
+                                    <i class="fas fa-search-plus"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="gallery-info">
+                            <h5>Workshops</h5>
+                            <p>Hands-on training sessions</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Awards Images -->
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="achievements">
+                    <div class="gallery-card">
+                        <div class="gallery-image">
+                            <a href="https://images.unsplash.com/photo-1540575467063-178f50002c4b?w=800&h=600&fit=crop" 
+                               data-lightbox="gallery" 
+                               data-title="Awards & Recognition">
+                                <img src="https://images.unsplash.com/photo-1540575467063-178f50002c4b?w=400&h=300&fit=crop" 
+                                     alt="Awards & Recognition" class="img-fluid">
+                                <div class="gallery-overlay">
+                                    <i class="fas fa-search-plus"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="gallery-info">
+                            <h5>Awards & Recognition</h5>
+                            <p>Institute achievements</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Student Projects -->
+                <div class="col-md-6 col-lg-4 gallery-item" data-category="achievements">
+                    <div class="gallery-card">
+                        <div class="gallery-image">
+                            <a href="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop" 
+                               data-lightbox="gallery" 
+                               data-title="Student Projects">
+                                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop" 
+                                     alt="Student Projects" class="img-fluid">
+                                <div class="gallery-overlay">
+                                    <i class="fas fa-search-plus"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="gallery-info">
+                            <h5>Student Projects</h5>
+                            <p>Showcasing student work</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="section-title mb-4">Interested in Joining Us?</h2>
+            <p class="lead mb-4">Enroll in our courses and become part of our growing community</p>
+            <a href="courses.html" class="btn btn-primary btn-lg me-2">Explore Courses</a>
+            <a href="contact.html" class="btn btn-outline-primary btn-lg">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5><i class="fas fa-code"></i> TechInstitute</h5>
+                    <p>Empowering the next generation of tech professionals</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <p>&copy; 2024 TechInstitute. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        // Gallery filter functionality
+        document.querySelectorAll('.filter-btn').forEach(button => {
+            button.addEventListener('click', function() {
+                const filterValue = this.getAttribute('data-filter');
+                
+                // Update active button
+                document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+                this.classList.add('active');
+                
+                // Filter gallery items
+                document.querySelectorAll('.gallery-item').forEach(item => {
+                    if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                        item.style.display = 'block';
+                        setTimeout(() => item.classList.add('fade-in'), 10);
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
